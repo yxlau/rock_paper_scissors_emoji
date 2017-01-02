@@ -1,8 +1,6 @@
 # RockPaperScissorsEmoji
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/rock_paper_scissors_emoji`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A simple CLI interpretation of Rock, Paper, Scissors, but with a few emoji. It offers single and two-player mode, and allows you to choose the number of points required to ‘win’. 
 
 ## Installation
 
@@ -22,7 +20,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Once you’ve installed the gem, include it in your Ruby script or IRB session:
+
+```ruby
+require 'rock_paper_scissors_emoji'
+```
+
+Start the game with 
+
+```ruby
+RockPaperScissorsEmoji::play
+```
 
 ## Development
 
@@ -32,7 +40,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/rock_paper_scissors_emoji.
+Bug reports and pull requests are welcome on GitHub at https://github.com/yxlau/rock_paper_scissors_emoji.
 
 
 ## License
